@@ -1,4 +1,4 @@
-package net.metalleke.codewars;
+package net.metalleke.codewars.kyu8;
 
 import java.util.stream.IntStream;
 

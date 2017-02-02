@@ -1,7 +1,8 @@
-package net.metalleke.codewars;
+package net.metalleke.codewars.kyu8;
 
-import static org.junit.Assert.*;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class TwoToOneTest {
 

@@ -1,6 +1,6 @@
-package net.metalleke.codewars;
+package net.metalleke.codewars.kyu8;
 
-public class Kata
+public class OppositeNumber
 {
     public static int opposite(int number)
     {

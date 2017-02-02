@@ -1,11 +1,11 @@
-package net.metalleke.codewars;
+package net.metalleke.codewars.kyu7;
 
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Accumul {
+public class Mumbling {
 
     public static String accum(String s) {
         AtomicInteger counter = new AtomicInteger(0);
