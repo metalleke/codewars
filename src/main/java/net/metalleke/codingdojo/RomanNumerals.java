@@ -1,13 +1,12 @@
 package net.metalleke.codingdojo;
 
-import java.util.Comparator;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class RomanNumerals {
 
-    private static final Map<Integer, String> LETTER_VALUES = new HashMap<>();
+    private static final Map<Integer, String> LETTER_VALUES = new LinkedHashMap<>();
 
     static {
         LETTER_VALUES.put(1000, "M");
@@ -32,7 +31,6 @@ public class RomanNumerals {
         LETTER_VALUES
                 .keySet()
                 .stream()
-                .sorted(Comparator.reverseOrder())
                 .forEach(value -> {
                     while (currentValue.intValue() >= value) {
                         currentValue.set(currentValue.intValue() - value);
