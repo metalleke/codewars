@@ -3,7 +3,6 @@ package net.metalleke.hackerrank;
 import java.io.*;
 import java.util.*;
 
-
 public class ClimbingTheLeaderboard {
 
     // Complete the climbingLeaderboard function below.
